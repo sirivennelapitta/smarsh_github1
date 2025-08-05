@@ -1,0 +1,30 @@
+
+
+ git -v
+$ git config --global user.name 'Siri_Vennela'
+$ git config --global --replace-all user.name 'Siri_Vennela'
+git config --global user.email 'pitta.vennela@smarsh.com'
+git init
+mkdir my_first_repo
+cd my_first_repo
+git init
+$ git add index.html
+$ git status
+$ git add index.html
+git commit -m "Initial commit: Add index.html"
+git log --oneline
+git status
+git diff
+git add index.html
+git diff --staged
+git commit  -m "Add new paragraph to index.html"
+git log --oneline
+
+
+branching--> movable pointer  to commit
+
+git branch   ==>list local branches
+git branch<branch-name> 
+git checkout -b<new branch-name>  ==> check if branch is present and also create new branch id not exist
+git checkout<target-branch>
+git merge<branch-to-merge-in>    ==>for merging the branches
